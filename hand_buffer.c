@@ -12,9 +12,9 @@ unsigned int handl_buf(char *buf, char c, unsigned int ibuf)
 	if (ibuf == 1024)
 	{
 		print_buf(buf, ibuf);
-		buf_i = 0;
+		ibuf = 0;
 	}
-	buf[buf_] = c;
+	buf[ibuf] = c;
 	ibuf++;
 	return (ibuf);
 }
