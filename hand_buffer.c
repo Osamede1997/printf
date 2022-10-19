@@ -2,9 +2,8 @@
 
 /**
  * handl_buf - concatenates the buffer characters
- * @buf: buffer pointer
+ * @ibuf: buffer pointer
  * @c: charcter to concatenate
- * @buf_i: index of buffer pointer
  * Return: index of buffer pointer.
  */
 unsigned int handl_buf(char *buf, char c, unsigned int ibuf)
